@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>News Artical</title>
+        <style>
+            body{
+                background-color: lightgray;
+            }
+            .header{
+                display: flex;
+                flex-flow: row wrap;
+                background-color: rgba(214, 36, 238, 0.733);
+                padding: 0px;
+                margin :5px;
+                justify-content: space-evenly;
+                word-spacing: 100px; 
+            }
+            
+            .mainContainer{
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .mainContainerItem{
+                padding: 10px;
+                margin: 5px;
+                background: white;
+            }
+            .artical {
+                padding: 10px;
+                margin: 10px;
+                background: white;
+            }
+            h2,h3{  font-style: normal ; font-weight: bolder; text-decoration: solid; }
+            .firstArtical{ text-align: center; font-weight: bolder; }
+            .rightSideBar { 
+                padding: 5px;
+                margin: 5px;
+                background-color: rgba(214, 36, 238, 0.733);
+                text-align: center;
+            }
+            .sideBar{ flex: 1 0; }
+            .mainContainerItem{ flex: 4 0; }
+            .footer{
+                padding: 1px;
+                margin: 5px;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body class="body">
+        <header class="header"> 
+        <h4>
+            <a  href="https://classroom.google.com/w/NTg3NzI0MTkxMzYx/t/all">HOME</a>
+            <a  href="https://classroom.google.com/c/NTg3NzI0MTkxMzYx">OUR_TEAM</a>
+            <a  href="https://classroom.google.com/r/NTg3NzI0MTkxMzYx/sort-last-name">PROJECT</a>
+            <a  href="https://classroom.google.com/r/NTg3NzI0MTkxMzYx/sort-last-name">CONTACT</a>
+        </h4>
+        </header>
+        <div class="mainContainer">
+            <section class="mainContainerItem">
+                <article>
+                    <h2 class="firstArtical">Artical Heading</h2>
+                    <p>
+                        The survey was conducted with more than 20,000 engineering graduates from various streams across India. 
+                        It revealed that the average score of women stood at 27% against 31% of men in 2020, which increased to 40% as against 39% of men in 2021, 
+                        thereby showcasing how women were better prepared for employment than men. However, in 2020, the average score of women declined to 25% as against 28% of men, the first decline in three years mainly due to the adoption of the hybrid mode of learning.
+                    </p>
+                </article>
+                <article>
+                    <h3>Subsection</h3>
+                    <p>
+                        The survey was conducted with more than 20,000 engineering graduates from various streams across India. 
+                    </p>
+                    <p>   
+                        It revealed that the average score of women stood at 27% against 31% of men in 2020, which increased to 40% as against 39% of men in 2021, 
+                        thereby showcasing how women were better prepared for employment than men. However, in 2020, the average score of women declined to 25% as against 28% of men, the first decline in three years mainly due to the adoption of the hybrid mode of learning.
+                    </p>
+                </article>
+                <article>
+                    <h3>Another Subsection</h3>
+                    <p>
+                        The survey was conducted with more than 20,000 engineering graduates from various streams across India. 
+                    </p>
+                    <p>  
+                        It revealed that the average score of women stood at 27% against 31% of men in 2020, which increased to 40% as against 39% of men in 2021, 
+                    </p>
+                    <p>   
+                        thereby showcasing how women were better prepared for employment than men. However, in 2020, the average score of women declined to 25% as against 28% of men, the first decline in three years mainly due to the adoption of the hybrid mode of learning.
+                  </p>
+                </article>
+            </section>
+            <sideBar class="sideBar rightSideBar">
+                <div class="center">
+                    <h2>Related</h2>
+                    <li><a href="https://classroom.google.com/w/NTg3NzI0MTkxMzYx/t/all">classroom google HOME</a></li>
+                    <li><a href="https://classroom.google.com/w/NTg3NzI0MTkxMzYx/t/all">classroom google PAGE</a></li>
+                    <li><a href="https://classroom.google.com/w/NTg3NzI0MTkxMzYx/t/all">classroom google history</a></li>
+                </div>
+            </sideBar>
+        </div>
+        <div class="footer">
+            <h6 class="copyrigte">U.S. copyright law is the Copyright Act ©, codified in Title 17 of the United States Code</h6>
+        </div>   
+    </body>
+</html>
